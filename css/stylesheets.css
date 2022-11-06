@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=News+Cycle&display=swap');
 
+/*Index*/
 .img-logo{
-    width:180px;
+    width:170px;
     height:45px;
     align-content: center;
 }
+
 
 .navbar-nav.navbar-center{
     position: absolute;
@@ -14,9 +16,10 @@
 }
 
 .navbar-nav>li{
-    padding: 0px 16px;
-    font-family: 'News Cycle', sans-serif;
-    font-size: 17px
+    padding: 0px 22px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
 }
 
 .nav-item > .nav-link{
@@ -25,11 +28,11 @@
 
 .active_nav{
     background-color: #1964A7 !important;
-    /*por si acaso el EF :v */
 }
 
 .dropdown-menu{
     border-radius: 0px !important;
+    font-family: 'News Cycle', sans-serif;
 }
 
 .dropdown-item:active{
@@ -42,7 +45,7 @@
 }
 
 .navbar-nav.navbar-center .descarga{
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: none;
     color:white;
     background-color: #1964A7;
@@ -50,7 +53,7 @@
     text-align: center;
     border-radius: 5px;
     line-height: 40px;
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'Francois One', sans-serif;
 }
 
 .carousel-caption{
@@ -121,20 +124,34 @@
 .clientes h2{
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
-    padding-bottom: 25px;
+    padding-bottom: 2px;
 }
 
 .marcas {
     margin-top: 90px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
  }
 
 .marcas h2{
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
-    padding-bottom: 25px;
+    padding-bottom: 2px;
 }
 
+.clientes img{
+    width: 55%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.marcas img{
+    width: 80%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+
+/*Contáctanos*/
 .contact-container{
     max-width: 960px;
     margin: auto;
@@ -151,6 +168,7 @@
     font-size: 35px;
     font-weight: 600;
     font-family: 'Francois One', sans-serif;
+    color: #1964A7;
 }
 
 .contact-form{
@@ -160,10 +178,11 @@
 }
 
 .contact-form h2{
-    font-size: 17px;
+    font-size: 18px;
     padding-bottom: auto;
     padding-top: 10px;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bold;
 }
 
 .contact-form input, 
@@ -172,11 +191,13 @@
     outline: none;
     font-size: 15px;
     color: rgb(32, 32, 32);
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
     padding-bottom: 8px;
     padding-top: 8px;
     padding-left: 5px;
     padding-right: 5px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .contact-form textarea{
@@ -187,7 +208,7 @@
 .contact-form .send-button{
     border: none;
     outline: none;
-    background: black;
+    background:#1964A7;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -196,7 +217,7 @@
 }
 
 .contact-form .send-button:hover{
-    background: #1964A7;
+    background:#12263A;
     transition: 0.3s all linear;
 }
 
@@ -210,16 +231,46 @@
     padding: 20px;   
 }
 
-.clientes img{
-    width: 55%;
-    height: 100%;
+/*Menu Verticales*/
+.menuV{
+    float: left;
+    width: 20%;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
-.marcas img{
-    width: 80%;
-    height: 100%;
+.menuV a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    padding: 20px;
+    display: block;
 }
 
+/*Automatizacion*/
+.auto_industrial h2{
+    font-size: 30px;
+    font-family: 'Francois One', sans-serif;
+
+}
+
+.auto_industrial p{
+    font-family: 'News Cycle', sans-serif;
+}
+
+
+
+
+.menuV a:hover{
+    background-color: #1964A7;
+    color: #ffffff;
+}
+
+
+/*Footer*/
 .pie{
     width: 100%;
     background-color: #12263A;
@@ -233,11 +284,9 @@
 }
 
 .box img{
-    width: 92%;
+    width: 85%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .grupo-1{
@@ -248,7 +297,7 @@
     color: white;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Francois One', sans-serif;
 }
 
@@ -258,7 +307,7 @@
     line-height: 1.5;
     text-align: justify;
     font-family: 'News Cycle', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .grupo-1 .red-social a{
@@ -271,7 +320,7 @@
     margin-right: 10px;
     text-align: center;
     transition: all 300ms ease;
-    font-size: 22px;
+    font-size: 23px;
 }
 
 .grupo-1 .red-social a:hover{
@@ -293,6 +342,24 @@ hr{
 
 .contact{
     margin-bottom: 50px;
+}
+
+.ubicacion .boton a{
+    display: inline-flex;
+    width: 45%;
+    height: 35px;
+    align-items: center;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom:8px ;
+    transition: .5s ease all;
+    border-radius: 0.5px;
+    background-color: #12263A;
+    border-color: #ffffff;
+    color: #ffffff;
+    letter-spacing: 1px;
 }
 
 

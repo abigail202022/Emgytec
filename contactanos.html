@@ -8,31 +8,30 @@
   <script src="https://kit.fontawesome.com/2cc44f368c.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"> </script>
   <link rel="stylesheet" href="./css/stylesheets.css">
-  <script async
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-</script>
 </head>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-crossorigin="anonymous"></script>
+  
 </body>
     <section class="contact">
         <div class="contact-container">
             <div class="form-container">
             <h3>Contáctanos</h3>  
-                <form action="" class="contact-form">
+                <form action="enviar.php" method="post" class="contact-form">
                     <h2>Nombres</h2>
-                        <input type="text" placeholder="" required>
+                        <input type="text" name="name" id="name" class="name" placeholder="" required>
                     <h2>Apellidos</h2>
-                        <input type="text" placeholder="" required>
+                        <input type="text" name="surname" id="surname" class="surname" placeholder="" required>
                     <h2>Correo</h2>
-                        <input type="email" name="" id="" placeholder="" required>
+                        <input type="email" name="mail" id="mail" class="email" placeholder="" required>
                     <h2>Teléfono/Celular</h2>
-                        <input type="tel" name="" id="" placeholder="" required>
+                        <input type="text" name="phone" id="subject" class="subject" placeholder="" required>
                     <h2>Mensaje</h2>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="" required></textarea>
+                        <textarea name="message" class="message" id="message" cols="30" rows="10" placeholder="" required></textarea>
                         <input type="submit" value="Enviar" class="send-button">
                 </form>
             </div>
@@ -42,50 +41,59 @@ crossorigin="anonymous"></script>
             </div>
         </div>
     </section>
+
     <footer class="pie">
-        <div class="container mx-auto px-5">
-          <div class="row">
-            <div class="col-12 col-md-4">
-              <div class="grupo-1">
-                <div class="box">
-                  <img src="./img/EMGYTEC-transparente.png" class="card-img-top" alt="logo2">
-                </div>
+      <div class="container mx-auto px-5">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="grupo-1">
+              <div class="box">
+                <img src="./img/EMGYTEC-transparente-vertical.png" class="card-img-top" alt="logo2">
               </div>
-            </div>
-            <div class="col-12 col-md-4">
-              <div class="grupo-1">
-                <div class="box">
-                  <h2>CONTÁCTANOS</h2>
-                  <p><i class="fa-solid fa-phone"></i> (+51) 943751789</p>
-                  <p><i class="fa-solid fa-envelope"></i> emgytec@emgytec.com</p>
-                  <p><i class="fa-solid fa-envelope"></i> soporte@emgytec.com</p>
-                  <p><i class="fa-solid fa-envelope"></i> e.bermeo@emgytec.com</p>
-                  <div class="red-social">
-                    <a class="fb" href="https://www.facebook.com/emgytecsac"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a class="ig" href="https://www.instagram.com/emgytecsac"><i class="fa-brands fa-instagram"></i></a>
-                    <a class="li" href="https://www.linkedin.com/in/emgytec-sac"><i class="fa-brands fa-linkedin"></i></a>
-                    <a class="yo" href="https://www.youtube.com/channel/UCn8gNhMXWRMpltIpY78HyKg"><i
-                        class="fa-brands fa-youtube"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="ubicacion col-12 col-md-4">
-              <div class="grupo-1">
-                <div class="box">
-                  <h2>ENCUÉNTRANOS</h2>
-                  <p><i class="fa-solid fa-location-dot"></i> Oficina Lima: Jr. Libertad 1232 Magdalena del Mar</p>
-                  <p><i class="fa-solid fa-location-dot"></i> Oficina Chimbote: Jr. Pallasca 165 Miraflores Alto</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <hr class="border-1 mb-2">
-            </div>
-            <div class="grupo-2 col-12">
-              <small>&copy;2022 <b>Emgytec</b> - Todos los Derechos Reservados</small>
             </div>
           </div>
+          <div class="col-12 col-md-4">
+            <div class="grupo-1">
+              <div class="box">
+                <h2>CONTÁCTANOS</h2>
+                <p><i class="fa-solid fa-phone"></i> (+51) 943751789</p>
+                <p><i class="fa-solid fa-envelope"></i> emgytec@emgytec.com</p>
+                <p><i class="fa-solid fa-envelope"></i> soporte@emgytec.com</p>
+                <p><i class="fa-solid fa-envelope"></i> e.bermeo@emgytec.com</p>
+                <div class="red-social">
+                  <a class="fb" href="https://www.facebook.com/emgytecsac"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a class="ig" href="https://www.instagram.com/emgytecsac"><i class="fa-brands fa-instagram"></i></a>
+                  <a class="li" href="https://www.linkedin.com/in/emgytec-sac"><i class="fa-brands fa-linkedin"></i></a>
+                  <a class="yo" href="https://www.youtube.com/channel/UCn8gNhMXWRMpltIpY78HyKg"><i
+                      class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ubicacion col-12 col-md-4">
+            <div class="grupo-1">
+              <div class="box">
+                <h2>ENCUÉNTRANOS</h2>
+                <p><i class="fa-solid fa-location-dot"></i> Oficina Lima: Jr. Libertad 1232 Magdalena del Mar</p>
+                <p><i class="fa-solid fa-location-dot"></i> Oficina Chimbote: Jr. Pallasca 165 Miraflores Alto</p>
+                <div class="boton">
+                  <a href="contactanos.html" class="btn btn-primary">Contáctanos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr class="border-1 mb-2">
+          </div>
+          <div class="grupo-2 col-12">
+            <small>&copy;2022 <b>Emgytec</b> - Todos los Derechos Reservados</small>
+          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  </body>
+  
 </html>
