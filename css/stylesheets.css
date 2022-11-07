@@ -227,7 +227,7 @@
 }
 
 
-/*Automatizacion*/
+/*Servicios General*/
 .wrap{
 	max-width: 1100px;
 	width: 100%;
@@ -276,17 +276,6 @@
     color: #ffffff;
 }
 
-section#tab_auto_industrial h2, section#tab_control h2, section#tab_instrumentacion h2, section#tab_industria h2, section#tab_scada h2{
-    font-family: 'News Cycle', sans-serif;
-    font-size: 23px;
-}
-
-section#tab_auto_industrial p, section#tab_control p, section#tab_instrumentacion p, section#tab_industria p, section#tab_scada p{
-    font-family: 'News Cycle', sans-serif;
-    font-size: 17px;
-    text-align: justify
-}
-
 section.tab{
     height: auto;
     background-color: #ffffff;
@@ -300,6 +289,30 @@ section.tab a{
 
 .hide_tab{
     display: none;
+}
+
+/*Automatiación*/
+section#tab_auto_industrial h2, section#tab_control h2, section#tab_instrumentacion h2, section#tab_industria h2, section#tab_scada h2{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 23px;
+}
+
+section#tab_auto_industrial p, section#tab_control p, section#tab_instrumentacion p, section#tab_industria p, section#tab_scada p{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: justify
+}
+
+/*Mantenimiento*/
+section#tab_panel h2, section#tab_eolica h2, section#tab_respaldo h2, section#tab_electrogeno h2{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 23px;
+}
+
+section#tab_panel p, section#tab_eolica p, section#tab_respaldp p, section#tab_electrogeno p{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: justify
 }
 
 /*Footer*/
