@@ -79,11 +79,6 @@
     margin-top: 30px;
 }
 
-.nosotros img{
-    margin-top: 20px;
-    max-width: 400px;
-}
-
 .contenido .video iframe{
     margin-top: 60px;
     width: 100%;
@@ -231,44 +226,81 @@
     padding: 20px;   
 }
 
-/*Menu Verticales*/
-.menuV{
-    float: left;
-    width: 20%;
-    overflow: hidden;
-    padding-left: 50px;
-    padding-top: 50px;
-}
-
-.menuV a{
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    font-family: 'News Cycle', sans-serif;
-    font-size: 17px;
-    padding: 20px;
-    display: block;
-}
 
 /*Automatizacion*/
-.auto_industrial h2{
-    font-size: 30px;
+.wrap{
+	max-width: 1100px;
+	width: 100%;
+	margin: auto;
+}
+
+.store-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wrap h1{
+    font-size: 35px;
     font-family: 'Francois One', sans-serif;
-
+    color: #1964A7;
+    padding-top: 40px;
+    padding-bottom: 42px;
+    text-align: center;
 }
 
-.auto_industrial p{
+.menuV {
+    display: flex;
+	flex-direction: column;
+	width: 100%;
+    padding-bottom: 40px;
+}
+
+.menuV button{
+    display: block;
+	width: 100%;
+	padding: 12px 0;
+	margin-bottom: 15px;
+	background: white;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+    text-decoration: none;
+    font-size: 17px;
     font-family: 'News Cycle', sans-serif;
+    border-style: solid;
+    border-width: 1.5px;
 }
 
-
-
-
-.menuV a:hover{
-    background-color: #1964A7;
+.menuV button:hover{
+    background: #1964A7;
     color: #ffffff;
 }
 
+section#tab_auto_industrial h2, section#tab_control h2, section#tab_instrumentacion h2, section#tab_industria h2, section#tab_scada h2{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 23px;
+}
+
+section#tab_auto_industrial p, section#tab_control p, section#tab_instrumentacion p, section#tab_industria p, section#tab_scada p{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: justify
+}
+
+section.tab{
+    height: auto;
+    background-color: #ffffff;
+    padding: 0 20px 50px 20px;
+    
+}
+
+section.tab a{
+    margin: 10px 0 30px 0px;
+}
+
+.hide_tab{
+    display: none;
+}
 
 /*Footer*/
 .pie{
@@ -338,6 +370,7 @@ hr{
     padding-bottom: 20px;
     text-align: center;
     font-size: 14px;
+    line-height: 15px;
 }
 
 .contact{
