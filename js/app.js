@@ -11,19 +11,6 @@ btnInstrumentacion.addEventListener('click', hideTabs)
 btnIndustria.addEventListener('click', hideTabs)
 btnScada.addEventListener('click', hideTabs)
 
-
-//Mantenimiento
-const btnPanel = document.getElementById("panel");
-const btnEolica = document.getElementById("eolica");
-const btnRespaldo = document.getElementById("respaldo");
-const btnElectrogeno = document.getElementById("electrogeno");
-
-btnPanel.addEventListener('click', hideTabs)
-btnEolica.addEventListener('click', hideTabs)
-btnRespaldo.addEventListener('click', hideTabs)
-btnElectrogeno.addEventListener('click', hideTabs)
-
-
 function hideTabs() {
     const attribute = this.getAttribute("id");
     const tabs = document.querySelectorAll(".tab");

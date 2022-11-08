@@ -68,8 +68,9 @@
 }
 
 .nosotros h2{
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Francois One', sans-serif;
+    color: #1964A7;
 }
 
 .nosotros p{
@@ -87,9 +88,10 @@
 
 .contenido .mivi .mision h3{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     font-family: 'Francois One', sans-serif;
+    color: #1964A7;
 }
 
 .contenido .mivi .mision p{
@@ -99,10 +101,11 @@
 }
 
 .contenido .mivi .vision h3{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     margin-top: 40px;
     font-family: 'Francois One', sans-serif;
+    color: #1964A7;
 }
 
 .contenido .mivi .vision li{
@@ -116,22 +119,17 @@
    margin-bottom: 70px;
 }
 
-.clientes h2{
+.clientes h2, .marcas h2{
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
     padding-bottom: 2px;
+    color: #1964A7;
 }
 
 .marcas {
     margin-top: 90px;
     margin-bottom: 100px;
  }
-
-.marcas h2{
-    font-size: 40px;
-    font-family: 'Francois One', sans-serif;
-    padding-bottom: 2px;
-}
 
 .clientes img{
     width: 55%;
@@ -240,7 +238,7 @@
 }
 
 .wrap h1{
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Francois One', sans-serif;
     color: #1964A7;
     padding-top: 40px;
@@ -332,6 +330,7 @@ section#tab_panel p, section#tab_eolica p, section#tab_respaldp p, section#tab_e
     width: 85%;
     height: 100%;
     display: flex;
+    padding-top: 17px;
 }
 
 .grupo-1{
