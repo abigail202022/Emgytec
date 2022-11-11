@@ -7,7 +7,6 @@
     align-content: center;
 }
 
-
 .navbar-nav.navbar-center{
     position: absolute;
     left: 57%;
@@ -65,6 +64,7 @@
 .nosotros{
     text-align: justify;
     line-height: 1.7em;
+    
 }
 
 .nosotros h2{
@@ -78,6 +78,7 @@
     font-family: 'News Cycle', sans-serif;
     margin-bottom: 20px;
     margin-top: 30px;
+    color: #606469;
 }
 
 .contenido .video iframe{
@@ -85,6 +86,7 @@
     width: 100%;
     height: 75%;
 }
+
 
 .contenido .mivi .mision h3{
     margin-top: 30px;
@@ -98,6 +100,7 @@
     font-size: 17px;
     text-align: justify;
     font-family: 'News Cycle', sans-serif;
+    color: #606469;
 }
 
 .contenido .mivi .vision h3{
@@ -106,12 +109,14 @@
     margin-top: 40px;
     font-family: 'Francois One', sans-serif;
     color: #1964A7;
+    
 }
 
 .contenido .mivi .vision li{
     font-size: 17px;
     text-align: justify;
     font-family: 'News Cycle', sans-serif;
+    color: #606469;
 }
 
 .clientes {
@@ -122,7 +127,6 @@
 .clientes h2, .marcas h2{
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
-    padding-bottom: 2px;
     color: #1964A7;
 }
 
@@ -138,92 +142,140 @@
 }
 
 .marcas img{
-    width: 80%;
+    width: 65%;
     height: 100%;
     padding-top: 50px;
 }
 
+/*Contáctanos2*/
+.form_wrap{
+    width: 1050px;
+    height: 530px;
+    margin: 50px auto;
+    display: flex;
 
-/*Contáctanos*/
-.contact-container{
-    max-width: 960px;
-    margin: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
-.form-container{
-    padding: 20px;
+
+/* Formulario de contacto*/
+
+.formulario{
+    width: 80%;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
 }
 
-.form-container h3{
-    font-size: 35px;
-    font-weight: 600;
+.formulario .form_contact h2{
     font-family: 'Francois One', sans-serif;
     color: #1964A7;
 }
 
-.contact-form{
-    display: grid;
-    row-gap: 0.6rem;
-    padding-left: 10px;
+.formulario .form_contact{
+    padding: 30px 40px;
 }
 
-.contact-form h2{
-    font-size: 18px;
-    padding-bottom: auto;
-    padding-top: 10px;
-    font-family: 'News Cycle', sans-serif;
-    font-weight: bold;
-}
-
-.contact-form input, 
-.contact-form textarea{
-    width: 100%;
-    outline: none;
+.formulario .user_info input,
+.formulario .user_info textarea{
+	font-family: 'News Cycle', sans-serif;
     font-size: 15px;
-    color: rgb(32, 32, 32);
-    border-radius: 0.2rem;
-    padding-bottom: 8px;
-    padding-top: 8px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-style: solid;
-    border-width: 1px;
+    color: #606469;
 }
 
-.contact-form textarea{
-    resize: none;
-    height: 200px;
+.formulario .form_contact h2{
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 30px;
+    font-family: 'Francois One', sans-serif;
+    color: #1964A7;
 }
 
-.contact-form .send-button{
-    border: none;
-    outline: none;
-    background:#1964A7;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    cursor: pointer;
-    color: white;
+.formulario .form_contact .user_info{
+    display: flex;
+    flex-direction: column;
 }
 
-.contact-form .send-button:hover{
-    background:#12263A;
-    transition: 0.3s all linear;
+.formulario .form_contact label{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 18px;
 }
 
-.contact-container .mapa p{
-    margin-top: 8px;
-    font-size: 16px;
+.formulario .row .mapa p{
+    margin-top: 15px;
+    font-size: 15px;
     font-family: 'News Cycle', sans-serif;
 }
 
-.contact-container .mapa {
-    padding: 20px;   
+.formulario .mapa {  
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
 }
 
+.formulario .mapa iframe{  
+    height: 100%;
+}
+
+form.form_contact input,
+form.form_contact textarea{
+    width: 100%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+    font-family: 'News Cycle', sans-serif;
+	color: #5A5A5A;
+	font-size: 14px;
+	font-weight: 400;
+    
+}
+
+form.form_contact input,
+form.form_contact textarea{
+    width: 100%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+    border: none !important;
+    border-bottom: 2px solid #D1D1D1 !important;
+    font-family: 'News Cycle', sans-serif;
+	color: #5A5A5A;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+form.form_contact textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+}
+
+form.form_contact input[type="button"]{
+    width: 140px;
+	background:#1964A7;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+
+    align-self: flex-end;
+
+    color: #fff;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+form.form_contact input[type="button"]:hover{
+    background: #4091EC;
+}
 
 /*Servicios General*/
 .wrap{
@@ -267,6 +319,7 @@
     font-family: 'News Cycle', sans-serif;
     border-style: solid;
     border-width: 1.5px;
+    color: #606469;
 }
 
 .menuV button:hover{
@@ -298,7 +351,8 @@ section#tab_auto_industrial h2, section#tab_control h2, section#tab_instrumentac
 section#tab_auto_industrial p, section#tab_control p, section#tab_instrumentacion p, section#tab_industria p, section#tab_scada p{
     font-family: 'News Cycle', sans-serif;
     font-size: 17px;
-    text-align: justify
+    text-align: justify;
+    color: #606469;
 }
 
 /*Mantenimiento*/
