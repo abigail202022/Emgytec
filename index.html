@@ -12,7 +12,13 @@
   <link rel="stylesheet" href="./css/stylesheets.css">
 </head>
 
-<body>
+<body class="hidden">
+  <div class="centrado" id="onload">
+    <div class="loadingio-spinner-spin-chbi7d9g9k4"><div class="ldio-gt7gda3k6ak">
+      <div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div>
+      </div></div>
+  </div>
+
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="./img/EMGYTEC-logo.png" alt="LOGO EMGYTEC" class="img-logo"></a>
@@ -30,9 +36,11 @@
             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               AUTOMATIZACIÓN</a>
             <ul class="dropdown-menu">
-              <li><a ref-item="auto_industrial" class="dropdown-item" href="automatizacion.html">Automatización industrial</a></li>
+              <li><a ref-item="auto_industrial" class="dropdown-item" href="automatizacion.html">Automatización
+                  industrial</a></li>
               <li><a ref-item="control" class="dropdown-item" href="automatizacion.html">Control</a></li>
-              <li><a ref-item="instrumentacion" class="dropdown-item" href="automatizacion.html">Instrumentación</a></li>
+              <li><a ref-item="instrumentacion" class="dropdown-item" href="automatizacion.html">Instrumentación</a>
+              </li>
               <li><a ref-item="industria" class="dropdown-item" href="automatizacion.html">Industria 4.0</a></li>
               <li><a ref-item="scada" class="dropdown-item" href="automatizacion.html">Sistema SCADA</a></li>
             </ul>
@@ -203,8 +211,8 @@
             <img src="./img/SCHENEIDER.png" class="card-img-top mx-auto d-block" alt="SCHENEIDER">
           </div>
         </div>
-        </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -262,44 +270,46 @@
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
 
-    <script src="./js/setLocalStorage.js"></script>
-    <script src="./js/app.js"></script>
+  <script src="./js/setLocalStorage.js"></script>
+  <script src="./js/app.js"></script>
 
-    <script>
-      const nav = document.querySelector('nav');
-      const botton = document.querySelector('.descarga');
-      window.addEventListener('scroll', () => {
-        if (window.scrollY >= 50) {
-          nav.classList.add('active_nav');
-          console.log(botton);
-          botton.classList.add('active_descarga');
-        } else {
-          nav.classList.remove('active_nav');
-          botton.classList.remove('active_descarga');
+  <script>
+    const nav = document.querySelector('nav');
+    const botton = document.querySelector('.descarga');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 50) {
+        nav.classList.add('active_nav');
+        console.log(botton);
+        botton.classList.add('active_descarga');
+      } else {
+        nav.classList.remove('active_nav');
+        botton.classList.remove('active_descarga');
+      }
+    })
+  </script>
+
+  <script>
+    document.querySelectorAll('.navbar .nav-item').forEach(function (everyitem) {
+      everyitem.addEventListener('mouseover', function (e) {
+        let el_link = this.querySelector('a[data-bs-toggle]');
+        if (el_link != null) {
+          let nextEl = el_link.nextElementSibling;
+          el_link.classList.add('show');
+          nextEl.classList.add('show');
+        }
+      });
+      everyitem.addEventListener('mouseleave', function (e) {
+        let el_link = this.querySelector('a[data-bs-toggle]');
+        if (el_link != null) {
+          let nextEl = el_link.nextElementSibling;
+          el_link.classList.remove('show');
+          nextEl.classList.remove('show');
         }
       })
-    </script>
-  
-    <script>
-      document.querySelectorAll('.navbar .nav-item').forEach(function (everyitem) {
-        everyitem.addEventListener('mouseover', function (e) {
-          let el_link = this.querySelector('a[data-bs-toggle]');
-          if (el_link != null) {
-            let nextEl = el_link.nextElementSibling;
-            el_link.classList.add('show');
-            nextEl.classList.add('show');
-          }
-        });
-        everyitem.addEventListener('mouseleave', function (e) {
-          let el_link = this.querySelector('a[data-bs-toggle]');
-          if (el_link != null) {
-            let nextEl = el_link.nextElementSibling;
-            el_link.classList.remove('show');
-            nextEl.classList.remove('show');
-          }
-        })
-      });
-    </script>
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="./js/codigo.js"></script>
 </body>
 
 </html>
