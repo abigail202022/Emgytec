@@ -3,123 +3,163 @@
 /*Preloader*/
 @keyframes ldio-gt7gda3k6ak {
     0% {
-      opacity: 1;
-      backface-visibility: hidden;
-      transform: translateZ(0) scale(1.76,1.76);
-    } 100% {
-      opacity: 0;
-      backface-visibility: hidden;
-      transform: translateZ(0) scale(1,1);
+        opacity: 1;
+        backface-visibility: hidden;
+        transform: translateZ(0) scale(1.76, 1.76);
     }
-  }
-  .ldio-gt7gda3k6ak div > div {
+
+    100% {
+        opacity: 0;
+        backface-visibility: hidden;
+        transform: translateZ(0) scale(1, 1);
+    }
+}
+
+.ldio-gt7gda3k6ak div>div {
     position: absolute;
     width: 8.96px;
     height: 8.96px;
     border-radius: 50%;
     background: #ffffff;
     animation: ldio-gt7gda3k6ak 1.0204081632653061s linear infinite;
-  }.ldio-gt7gda3k6ak div:nth-child(1) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(1)>div {
     left: 150px;
     top: 108.00000000000001px;
     animation-delay: -0.9183673469387754s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(1) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(1) {
     transform: rotate(0deg);
     transform-origin: 154.48000000000002px 112.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(2) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(2)>div {
     left: 142px;
     top: 133px;
     animation-delay: -0.8163265306122448s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(2) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(2) {
     transform: rotate(36deg);
     transform-origin: 146.48000000000002px 137.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(3) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(3)>div {
     left: 121.00000000000001px;
     top: 148px;
     animation-delay: -0.7142857142857142s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(3) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(3) {
     transform: rotate(72deg);
     transform-origin: 125.48000000000002px 152.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(4) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(4)>div {
     left: 94.00000000000001px;
     top: 148px;
     animation-delay: -0.6122448979591836s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(4) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(4) {
     transform: rotate(108deg);
     transform-origin: 98.48000000000002px 152.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(5) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(5)>div {
     left: 73.00000000000001px;
     top: 133px;
     animation-delay: -0.5102040816326531s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(5) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(5) {
     transform: rotate(144deg);
     transform-origin: 77.48000000000002px 137.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(6) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(6)>div {
     left: 65.00000000000001px;
     top: 108.00000000000001px;
     animation-delay: -0.4081632653061224s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(6) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(6) {
     transform: rotate(180deg);
     transform-origin: 69.48000000000002px 112.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(7) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(7)>div {
     left: 73.00000000000001px;
     top: 83.00000000000001px;
     animation-delay: -0.3061224489795918s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(7) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(7) {
     transform: rotate(216deg);
     transform-origin: 77.48000000000002px 87.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(8) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(8)>div {
     left: 94.00000000000001px;
     top: 67.00000000000001px;
     animation-delay: -0.2040816326530612s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(8) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(8) {
     transform: rotate(252deg);
     transform-origin: 98.48000000000002px 71.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(9) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(9)>div {
     left: 121.00000000000001px;
     top: 67.00000000000001px;
     animation-delay: -0.1020408163265306s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(9) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(9) {
     transform: rotate(288deg);
     transform-origin: 125.48000000000002px 71.48000000000002px;
-  }.ldio-gt7gda3k6ak div:nth-child(10) > div {
+}
+
+.ldio-gt7gda3k6ak div:nth-child(10)>div {
     left: 142px;
     top: 83.00000000000001px;
     animation-delay: 0s;
-  }
-  .ldio-gt7gda3k6ak > div:nth-child(10) {
+}
+
+.ldio-gt7gda3k6ak>div:nth-child(10) {
     transform: rotate(324deg);
     transform-origin: 146.48000000000002px 87.48000000000002px;
-  }
-  .loadingio-spinner-spin-chbi7d9g9k4 {
+}
+
+.loadingio-spinner-spin-chbi7d9g9k4 {
     width: 224px;
     height: 224px;
     display: inline-block;
     overflow: hidden;
     background: none;
-  }
-  .ldio-gt7gda3k6ak {
+}
+
+.ldio-gt7gda3k6ak {
     width: 100%;
     height: 100%;
     position: relative;
     transform: translateZ(0) scale(1);
     backface-visibility: hidden;
-    transform-origin: 0 0; /* see note above */
-  }
-  .ldio-gt7gda3k6ak div { box-sizing: content-box; }
-  /* generated by https://loading.io/ */
+    transform-origin: 0 0;
+    /* see note above */
+}
+
+.ldio-gt7gda3k6ak div {
+    box-sizing: content-box;
+}
+
+/* generated by https://loading.io/ */
 
 
-.centrado{
+.centrado {
     height: 100vh;
     background-color: #000000;
     display: flex;
@@ -127,55 +167,55 @@
     align-items: center;
 }
 
-.hidden{
+.hidden {
     overflow: hidden;
 }
 
 /*Index*/
-.img-logo{
-    width:170px;
-    height:55px;
+.img-logo {
+    width: 170px;
+    height: 55px;
 }
 
-.navbar-nav.navbar-center{
+.navbar-nav.navbar-center {
     position: relative;
     left: 50%;
     transform: translatex(-50%);
 }
 
-.navbar-nav>li{
+.navbar-nav>li {
     padding: 0px 15px;
     font-family: 'Francois One', sans-serif;
     font-size: 16px;
     letter-spacing: 0.2px;
 }
 
-.nav-item > .nav-link{
+.nav-item>.nav-link {
     color: white !important;
 }
 
-.active_nav{
+.active_nav {
     background-color: #1964A7 !important;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     border-radius: 0px !important;
     font-family: 'News Cycle', sans-serif;
 }
 
-.dropdown-item:active{
+.dropdown-item:active {
     background-color: #1964A7 !important;
 }
 
-.active_descarga{
+.active_descarga {
     background-color: #ffffff !important;
     color: #1964A7 !important;
 }
 
-.navbar-nav.navbar-center .descarga{
+.navbar-nav.navbar-center .descarga {
     font-size: 15px;
     text-decoration: none;
-    color:white;
+    color: white;
     background-color: #1964A7;
     padding: 6px 15px;
     text-align: center;
@@ -184,21 +224,20 @@
     font-family: 'Francois One', sans-serif;
 }
 
-.nosotros{
+.nosotros {
     text-align: justify;
     line-height: 1.7em;
-    
 }
 
-.nosotros h2{
+.nosotros h2 {
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
     color: #ffffff;
-    background-color:#1964A7;
+    background-color: #1964A7;
     padding: 10px 0px 10px 8px;
 }
 
-.nosotros p{
+.nosotros p {
     font-size: 17px;
     font-family: 'News Cycle', sans-serif;
     margin-bottom: 15px;
@@ -206,30 +245,30 @@
     color: #606469;
 }
 
-.nosotros .video iframe{
+.nosotros .video iframe {
     margin-top: 24px;
     width: 100%;
     height: 100%;
 }
 
-.contenidos{
-    margin-top: 80px;
+.contenidos {
+    margin-top: 60px;
     font-size: 60px;
     color: white;
 }
 
-#fondo{
+#fondo {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     background-image: url(EMGYTEC-nosotros.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
-    position: relative;  
+    background-position: center;
+    position: relative;
 }
 
-#fondo::before{
+#fondo::before {
     content: '';
     position: absolute;
     background-color: rgba(0, 0, 0, 0.3);
@@ -239,44 +278,43 @@
     right: 0;
 }
 
-.contenidos .como{
+.contenidos .como {
     margin-top: 50px;
 }
 
-.contenidos h1{
+.contenidos h1 {
     margin-left: 50px;
-    font-size: 60px;
+    font-size: 55px;
     font-family: 'Francois One', sans-serif;
     color: white;
     position: relative;
 }
 
-
-.contenidos i{
+.contenidos i {
     font-size: 50px;
     color: white;
     align-content: center;
 }
 
-.contenidos h3{
+.contenidos h3 {
     margin-bottom: 15px;
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
     color: white;
 }
 
-.contenidos .mision{
-    background-color:#4091EC;
+.contenidos .mision {
+    background-color: #4091EC;
     opacity: 0.89;
     position: relative;
 }
 
-.contenidos .vision{
-    background-color:#4091EC;
+.contenidos .vision {
+    background-color: #4091EC;
     position: relative;
 }
 
-.contenidos p{
+.contenidos p {
     font-size: 17px;
     font-family: 'News Cycle', sans-serif;
     color: white;
@@ -286,33 +324,29 @@
     padding-right: 10px;
 }
 
-#hero{
+#hero {
     position: relative;
 }
 
-.clima .absolute{
+.clima .absolute {
     position: relative;
     z-index: 1;
 }
 
-.clima h2{
-    font-size: 50px;
+.clima h2 {
+    font-size: 40px;
     font-family: 'Francois One', sans-serif;
-    color: white; 
-    padding-bottom: 25px;
+    color: white;
+    padding-bottom: 30px;
 }
 
-.clima .clientes{
-    padding-top: 60px;
-    padding-bottom: 0px;
+.clima .clientes,
+.clima .marcas {
+    padding-top: 80px;
+    padding-bottom: 70px;
 }
 
-.clima .marcas{
-    padding-top: 70px;
-    padding-bottom: 100px;
-}
-
-.clima video{
+.clima video {
     position: absolute;
     top: 0;
     left: 0;
@@ -321,31 +355,57 @@
     object-fit: cover;
 }
 
-.clima .clientes img{
-    width: 55%;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+.clima .clientes img {
+    display: block;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+    opacity: 0.7;
 }
 
-.clima .marcas img{
-    width: 65%;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+.clima .clientes img:hover {
+    transform: scale(1.2);
+    transform-origin: center center;
+    opacity: 1;
 }
 
+.clima .marcas img {
+    display: block;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+    opacity: 0.7;
+}
 
+.clima .marcas img:hover {
+    transform: scale(1.3);
+    transform-origin: center center;
+    opacity: 1;
+}
 
-.clima .capa{
+.clima .capa {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: #1c1c1d;
-    opacity: 0.5;
+    opacity: 0.8;
+}
+
+.clima .carousel-control-next-icon,
+.clima .carousel-control-prev-icon{
+    height: 30px;
+    width: 20px;
 }
 
 
 /*Contáctanos2*/
-.form_wrap{
+.form_wrap {
     width: 1050px;
     height: 530px;
     margin: 50px auto;
@@ -360,9 +420,9 @@
 
 /* Formulario de contacto*/
 
-.formulario{
+.formulario {
     width: 80%;
-    background-color:#fff;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,121 +432,121 @@
     margin: 50px auto;
 }
 
-.formulario .form_contact h2{
+.formulario .form_contact h2 {
     font-family: 'Francois One', sans-serif;
     color: #1964A7;
 }
 
-.formulario .form_contact{
+.formulario .form_contact {
     padding: 30px 40px;
 }
 
 .formulario .user_info input,
-.formulario .user_info textarea{
-	font-family: 'News Cycle', sans-serif;
+.formulario .user_info textarea {
+    font-family: 'News Cycle', sans-serif;
     font-size: 15px;
     color: #606469;
 }
 
-.formulario .form_contact h2{
-	font-size: 40px;
-	font-weight: 600;
-	margin-bottom: 30px;
+.formulario .form_contact h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
     font-family: 'Francois One', sans-serif;
     color: #1964A7;
 }
 
-.formulario .form_contact .user_info{
+.formulario .form_contact .user_info {
     display: flex;
     flex-direction: column;
 }
 
-.formulario .form_contact label{
+.formulario .form_contact label {
     font-family: 'News Cycle', sans-serif;
     font-size: 18px;
 }
 
-.formulario .row .mapa p{
+.formulario .row .mapa p {
     margin-top: 15px;
     font-size: 15px;
     font-family: 'News Cycle', sans-serif;
 }
 
-.formulario .mapa {  
+.formulario .mapa {
     display: flex;
     flex-direction: column;
     padding: 0px 0px;
 }
 
-.formulario .mapa iframe{  
+.formulario .mapa iframe {
     height: 100%;
 }
 
 form.form_contact input,
-form.form_contact textarea{
+form.form_contact textarea {
     width: 100%;
     padding: 8px 0px 5px;
     margin-bottom: 20px;
     border: none;
     border-bottom: 2px solid #D1D1D1;
     font-family: 'News Cycle', sans-serif;
-	color: #5A5A5A;
-	font-size: 14px;
-	font-weight: 400;
-    
+    color: #5A5A5A;
+    font-size: 14px;
+    font-weight: 400;
+
 }
 
 form.form_contact input,
-form.form_contact textarea{
+form.form_contact textarea {
     width: 100%;
     padding: 8px 0px 5px;
     margin-bottom: 20px;
     border: none !important;
     border-bottom: 2px solid #D1D1D1 !important;
     font-family: 'News Cycle', sans-serif;
-	color: #5A5A5A;
-	font-size: 14px;
-	font-weight: 400;
+    color: #5A5A5A;
+    font-size: 14px;
+    font-weight: 400;
 }
 
-form.form_contact textarea{
+form.form_contact textarea {
     max-width: 100%;
     min-width: 100%;
     max-height: 90px;
 }
 
-.formulario .user_info button{
+.formulario .user_info button {
     width: 140px;
-	background:#1964A7;
-	padding: 10px;
-	border: none;
-	border-radius: 3px;
+    background: #1964A7;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
 
     align-self: flex-end;
 
     color: #fff;
-	font-family: 'News Cycle', sans-serif;
-	font-size: 16px;
-	cursor: pointer;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.formulario .user_info button:hover{
+.formulario .user_info button:hover {
     background: #4091EC;
 }
 
 /*Servicios General*/
-.wrap{
-	max-width: 1100px;
-	width: 100%;
-	margin: auto;
+.wrap {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
 }
 
-.store-wrapper{
-	display: flex;
-	flex-wrap: wrap;
+.store-wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.wrap h1{
+.wrap h1 {
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
     color: #1964A7;
@@ -497,20 +557,20 @@ form.form_contact textarea{
 
 .menuV {
     display: flex;
-	flex-direction: column;
-	width: 100%;
+    flex-direction: column;
+    width: 100%;
     padding-bottom: 40px;
 }
 
-.menuV button{
+.menuV button {
     display: block;
-	width: 100%;
-	padding: 12px 0;
-	margin-bottom: 15px;
-	background: white;
-	text-align: center;
-	text-decoration: none;
-	color: black;
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 15px;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
     text-decoration: none;
     font-size: 17px;
     font-family: 'News Cycle', sans-serif;
@@ -519,33 +579,41 @@ form.form_contact textarea{
     color: #606469;
 }
 
-.menuV button:hover{
+.menuV button:hover {
     background: #1964A7;
     color: #ffffff;
 }
 
-section.tab{
+section.tab {
     height: auto;
     background-color: #ffffff;
     padding: 0 20px 50px 20px;
-    
+
 }
 
-section.tab a{
+section.tab a {
     margin: 10px 0 30px 0px;
 }
 
-.hide_tab{
+.hide_tab {
     display: none;
 }
 
 /*Automatiación*/
-section#tab_auto_industrial h2, section#tab_control h2, section#tab_instrumentacion h2, section#tab_industria h2, section#tab_scada h2{
+section#tab_auto_industrial h2,
+section#tab_control h2,
+section#tab_instrumentacion h2,
+section#tab_industria h2,
+section#tab_scada h2 {
     font-family: 'News Cycle', sans-serif;
     font-size: 23px;
 }
 
-section#tab_auto_industrial p, section#tab_control p, section#tab_instrumentacion p, section#tab_industria p, section#tab_scada p{
+section#tab_auto_industrial p,
+section#tab_control p,
+section#tab_instrumentacion p,
+section#tab_industria p,
+section#tab_scada p {
     font-family: 'News Cycle', sans-serif;
     font-size: 17px;
     text-align: justify;
@@ -553,19 +621,25 @@ section#tab_auto_industrial p, section#tab_control p, section#tab_instrumentacio
 }
 
 /*Mantenimiento*/
-section#tab_panel h2, section#tab_eolica h2, section#tab_respaldo h2, section#tab_electrogeno h2{
+section#tab_panel h2,
+section#tab_eolica h2,
+section#tab_respaldo h2,
+section#tab_electrogeno h2 {
     font-family: 'News Cycle', sans-serif;
     font-size: 23px;
 }
 
-section#tab_panel p, section#tab_eolica p, section#tab_respaldp p, section#tab_electrogeno p{
+section#tab_panel p,
+section#tab_eolica p,
+section#tab_respaldp p,
+section#tab_electrogeno p {
     font-family: 'News Cycle', sans-serif;
     font-size: 17px;
     text-align: justify
 }
 
 /*Footer*/
-.pie{
+.pie {
     width: 100%;
     background-color: #12263A;
     display: flex;
@@ -574,22 +648,22 @@ section#tab_panel p, section#tab_eolica p, section#tab_respaldp p, section#tab_e
     flex-direction: column;
     color: beige;
     font-size: 13px;
-    line-height: 0.3em; 
+    line-height: 0.3em;
     position: relative;
 }
 
-.box img{
+.box img {
     width: 85%;
     height: 100%;
     display: flex;
     padding-top: 17px;
 }
 
-.grupo-1{
+.grupo-1 {
     padding-top: 17px;
 }
 
-.grupo-1 .box h2{
+.grupo-1 .box h2 {
     color: white;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -597,7 +671,7 @@ section#tab_panel p, section#tab_eolica p, section#tab_respaldp p, section#tab_e
     font-family: 'Francois One', sans-serif;
 }
 
-.grupo-1 .box p{
+.grupo-1 .box p {
     color: efefef;
     margin-bottom: 8.5px;
     line-height: 1.5;
@@ -606,7 +680,7 @@ section#tab_panel p, section#tab_eolica p, section#tab_respaldp p, section#tab_e
     font-size: 15px;
 }
 
-.grupo-1 .red-social a{
+.grupo-1 .red-social a {
     display: inline-block;
     text-decoration: none;
     width: 25px;
@@ -619,11 +693,11 @@ section#tab_panel p, section#tab_eolica p, section#tab_respaldp p, section#tab_e
     font-size: 23px;
 }
 
-.grupo-1 .red-social a:hover{
+.grupo-1 .red-social a:hover {
     color: rgba(225, 225, 225, 0.668);
 }
 
-hr{
+hr {
     border-top-width: 1.8px;
     border-color: white;
     opacity: 5;
@@ -637,11 +711,11 @@ hr{
     line-height: 15px;
 }
 
-.contact{
+.contact {
     margin-bottom: 50px;
 }
 
-.ubicacion .boton a{
+.ubicacion .boton a {
     display: inline-flex;
     width: 45%;
     height: 35px;
@@ -650,7 +724,7 @@ hr{
     font-size: 15px;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom:8px ;
+    margin-bottom: 8px;
     transition: .5s ease all;
     border-radius: 0.5px;
     background-color: #12263A;
@@ -661,7 +735,7 @@ hr{
 
 
 @media screen and (max-width:800px) {
-    .contact-container{
+    .contact-container {
         margin: auto;
         width: 100%;
         display: grid;
@@ -671,4 +745,3 @@ hr{
         grid-gap: 70px;
     }
 }
-

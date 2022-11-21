@@ -49,10 +49,11 @@
       </div>
     </div>
   </div>
-
+  <section>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="./img/EMGYTEC-logo.png" alt="LOGO EMGYTEC" class="img-logo"></a>
+      <a class="navbar-brand" href="index.html"><img src="./img/EMGYTEC-logo.png" alt="LOGO EMGYTEC"
+          class="img-logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa-solid fa-bars"></i>
@@ -117,6 +118,7 @@
       </div>
     </div>
   </nav>
+  </section>
 
   <section class="carrusel">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -147,7 +149,7 @@
     </div>
   </section>
 
-  <section class="nosotros my-5">
+  <section class="nosotros my-4">
     <div class="container">
       <div class="row">
         <div class="texto col-12 col-md-6">
@@ -205,68 +207,77 @@
   </section>
 
   <section class="clima" id="hero">
-    <div class="absolute">
-      <div class="clientes">
-        <h2 class="mb-8 text-center">CLIENTES</h2>
-        <div class="row justify-content-center g-4">
-          <div class="col-md-2 col-6">
-            <div class="h-100">
-              <img src="./img/UPC.png" class="card-img-top mx-auto d-block" alt="UPC">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="absolute carousel-inner">
+        <div class="clientes carousel-item active">
+          <h2 class="mb-8 text-center">NUESTROS CLIENTES</h2>
+          <div class="row justify-content-center g-4">
+            <div class="col-md-2 col-6">
+              <div class="h-100">
+                <img src="./img/UPC.png" class="card-img-top mx-auto d-block" alt="UPC">
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class=" h-100">
+                <img src="./img/UPN.png" class="card-img-top mx-auto d-block" alt="UPN">
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="h-100">
+                <img src="./img/OHLA.png" class="card-img-top mx-auto d-block" alt="OHLA">
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class=" h-100">
+                <img src="./img/PNP.png" class="card-img-top mx-auto d-block" alt="PNP">
+              </div>
             </div>
           </div>
-          <div class="col-md-2 col-6">
-            <div class=" h-100">
-              <img src="./img/UPN.png" class="card-img-top mx-auto d-block" alt="UPN">
+        </div>
+        <div class="marcas carousel-item">
+          <h2 class="mb-8 text-center">NUESTRAS MARCAS</h2>
+          <div class="row justify-content-center g-3">
+            <div class="col-md-2 col-6">
+              <div class="h-100">
+                <img src="./img/SIEMENS.png" class="card-img-top mx-auto d-block" alt="SIEMENS">
+              </div>
             </div>
-          </div>
-          <div class="col-md-2 col-6">
-            <div class="h-100">
-              <img src="./img/OHLA.png" class="card-img-top mx-auto d-block" alt="OHLA">
+            <div class="col-md-2 col-6">
+              <div class=" h-100">
+                <img src="./img/ABB.png" class="card-img-top mx-auto d-block" alt="ABB">
+              </div>
             </div>
-          </div>
-          <div class="col-md-2 col-6">
-            <div class=" h-100">
-              <img src="./img/PNP.png" class="card-img-top mx-auto d-block" alt="PNP">
+            <div class="col-md-2 col-6">
+              <div class="h-100">
+                <img src="./img/SCHENEIDER.png" class="card-img-top mx-auto d-block" alt="SCHENEIDER">
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="marcas">
-        <h2 class="mb-8 text-center">MARCAS</h2>
-        <div class="row justify-content-center g-3">
-          <div class="col-md-2 col-6">
-            <div class="h-100">
-              <img src="./img/SIEMENS.png" class="card-img-top mx-auto d-block" alt="SIEMENS">
-            </div>
-          </div>
-          <div class="col-md-2 col-6">
-            <div class=" h-100">
-              <img src="./img/ABB.png" class="card-img-top mx-auto d-block" alt="ABB">
-            </div>
-          </div>
-          <div class="col-md-2 col-6">
-            <div class="h-100">
-              <img src="./img/SCHENEIDER.png" class="card-img-top mx-auto d-block" alt="SCHENEIDER">
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
     </div>
     <video muted autoplay loop>
       <source src="./img/videoEmgytec.mp4" type="video/mp4">
     </video>
-    <div class="capa">
-      
-    </div>
+    <div class="capa"></div>
   </section>
-
   <footer class="pie">
     <div class="container mx-auto px-5">
       <div class="row">
         <div class="col-12 col-md-4">
           <div class="grupo-1">
             <div class="box">
-              <img src="./img/EMGYTEC-transparente-vertical.png" class="card-img-top" alt="logo2">
+              <a href="index.html"> <img src="./img/EMGYTEC-transparente-vertical.png" class="card-img-top" alt="logo2">
+              </a>
             </div>
           </div>
         </div>
