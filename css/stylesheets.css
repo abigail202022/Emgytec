@@ -134,21 +134,19 @@
 /*Index*/
 .img-logo{
     width:170px;
-    height:45px;
-    align-content: center;
+    height:55px;
 }
 
 .navbar-nav.navbar-center{
-    position: absolute;
-    left: 57%;
+    position: relative;
+    left: 50%;
     transform: translatex(-50%);
-    font-size: 16px;
 }
 
 .navbar-nav>li{
-    padding: 0px 22px;
+    padding: 0px 15px;
     font-family: 'Francois One', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 0.2px;
 }
 
@@ -186,12 +184,6 @@
     font-family: 'Francois One', sans-serif;
 }
 
-.carousel-caption{
-    bottom: 180px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
 .nosotros{
     text-align: justify;
     line-height: 1.7em;
@@ -220,71 +212,137 @@
     height: 100%;
 }
 
+.contenidos{
+    margin-top: 80px;
+    font-size: 60px;
+    color: white;
+}
 
-.contenido img{
-    height: 100%;
+#fondo{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url(EMGYTEC-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    position: relative;  
+}
+
+#fondo::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contenidos .como{
+    margin-top: 50px;
+}
+
+.contenidos h1{
+    margin-left: 50px;
+    font-size: 60px;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    position: relative;
 }
 
 
-.contenido h3{
-    margin-top: 40px;
+.contenidos i{
+    font-size: 50px;
+    color: white;
+    align-content: center;
+}
+
+.contenidos h3{
     margin-bottom: 15px;
     font-size: 40px;
     font-family: 'Francois One', sans-serif;
-    color:#1964A7
+    color: white;
 }
 
-.contenido .mision{
+.contenidos .mision{
+    background-color:#4091EC;
+    opacity: 0.89;
+    position: relative;
+}
+
+.contenidos .vision{
+    background-color:#4091EC;
+    position: relative;
+}
+
+.contenidos p{
     font-size: 17px;
-    text-align: justify;
     font-family: 'News Cycle', sans-serif;
-    color: #606469;
-    margin-bottom: 50px;
-    background-color: white;
-    padding: 15px 10px;
-}
-
-.contenido p{
-    font-size: 17px;
+    color: white;
     text-align: justify;
-    font-family: 'News Cycle', sans-serif;
-    color: #606469;
-    background-color: white;
-    padding: 15px 10px;
+    opacity: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.contenido ul {
-    padding-left: 0px;
+#hero{
+    position: relative;
 }
 
-
-.clientes {
-   margin-top: 50px;
-   margin-bottom: 70px;
+.clima .absolute{
+    position: relative;
+    z-index: 1;
 }
 
-.clientes h2, .marcas h2{
-    font-size: 40px;
+.clima h2{
+    font-size: 50px;
     font-family: 'Francois One', sans-serif;
-    color: #1964A7;
+    color: white; 
+    padding-bottom: 25px;
 }
 
-.marcas {
-    margin-top: 90px;
-    margin-bottom: 100px;
- }
+.clima .clientes{
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
 
-.clientes img{
+.clima .marcas{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.clima video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clima .clientes img{
     width: 55%;
-    height: 100%;
-    padding-top: 50px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
-.marcas img{
+.clima .marcas img{
     width: 65%;
-    height: 100%;
-    padding-top: 50px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
+
+
+
+.clima .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+}
+
 
 /*Contáctanos2*/
 .form_wrap{
@@ -517,6 +575,7 @@ section#tab_panel p, section#tab_eolica p, section#tab_respaldp p, section#tab_e
     color: beige;
     font-size: 13px;
     line-height: 0.3em; 
+    position: relative;
 }
 
 .box img{
