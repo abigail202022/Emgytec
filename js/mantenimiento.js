@@ -1,15 +1,15 @@
 render();
 
 //Mantenimiento
-const btnPanel = document.getElementById("");
-const btnEolica = document.getElementById("");
-const btnRespaldo = document.getElementById("");
-const btnElectrogeno = document.getElementById("");
+const btnMecanicos = document.getElementById("mecanicos");
+const btnElecronicos = document.getElementById("electronicos");
+const btnLaboratorio = document.getElementById("laboratorio");
+const btnComputo = document.getElementById("computo");
 
-btnPanel.addEventListener('click', hideTabs)
-btnEolica.addEventListener('click', hideTabs)
-btnRespaldo.addEventListener('click', hideTabs)
-btnElectrogeno.addEventListener('click', hideTabs)
+btnMecanicos.addEventListener('click', hideTabs)
+btnElecronicos.addEventListener('click', hideTabs)
+btnLaboratorio.addEventListener('click', hideTabs)
+btnComputo.addEventListener('click', hideTabs)
 
 
 function hideTabs() {

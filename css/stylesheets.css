@@ -620,7 +620,7 @@ section#tab_scada p {
     color: #606469;
 }
 
-/*Mantenimiento*/
+/*Energía*/
 section#tab_panel h2,
 section#tab_eolica h2,
 section#tab_respaldo h2,
@@ -631,12 +631,40 @@ section#tab_electrogeno h2 {
 
 section#tab_panel p,
 section#tab_eolica p,
-section#tab_respaldp p,
+section#tab_respaldo p,
 section#tab_electrogeno p {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/*Mantenimiento*/
+section#tab_mecanicos h2,
+section#tab_electronicos h2,
+section#tab_laboratorio h2,
+section#tab_computo h2 {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 23px;
+}
+
+section#tab_mecanicos p,
+section#tab_electronicos p,
+section#tab_laboratorio p,
+section#tab_computo p {
     font-family: 'News Cycle', sans-serif;
     font-size: 17px;
     text-align: justify
 }
+
+section#tab_mecanicos li,
+section#tab_electronicos li,
+section#tab_laboratorio li,
+section#tab_computo li {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: justify
+}
+
 
 /*Footer*/
 .pie {
