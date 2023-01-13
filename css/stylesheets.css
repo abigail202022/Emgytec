@@ -78,21 +78,23 @@
 
 /*Index*/
 .img-logo {
-    width: 160px;
-    height: 55px;
+    width: 170px;
+    height: 50px;
 }
 
 .navbar-nav.navbar-center {
     position: relative;
-    left: 50%;
+    left: 52%;
     transform: translatex(-50%);
 }
 
 .navbar-nav>li {
-    padding: 0px 18px;
+    padding-left: 40px;
+    padding-top: 18px;
+    padding-bottom: 10px;
     font-family: 'Francois One', sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.25px;
+    font-size: 16.5px;
+    letter-spacing: 0.30px;
 }
 
 .nav-item>.nav-link {
@@ -118,20 +120,20 @@
 }
 
 .navbar-nav.navbar-center .descarga {
-    font-size: 15px;
+    font-size: 16.5px;
     text-decoration: none;
     color: white;
     background-color: #1964A7;
-    padding: 6px 15px;
+    padding: 5px 15px;
     text-align: center;
-    border-radius: 4px;
-    line-height: 40px;
+    border-radius: 40px;
+    line-height: 39px;
     font-family: 'Francois One', sans-serif;
 }
 
 /*SLIDE*/
 #portada {
-    background-image: url(Portada-_1_.jpg);
+    background-image: url(EMGYTEC-portada\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -142,21 +144,21 @@
 
 .swiper {
     width: 100%;
-    padding-top: 200px;
+    padding-top: 170px;
 }
 
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 280px;
     height: 300px;
-    background:#12263A;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, white);
+    -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, rgb(255, 255, 255));
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
+    height: 370px;
 
 }
 
@@ -179,7 +181,7 @@
     font-family: 'News Cycle', sans-serif;
     margin-bottom: 15px;
     margin-top: 30px;
-    color: #606469;
+    color: #585b5f;
 }
 
 .nosotros .video iframe {
@@ -220,7 +222,7 @@
 }
 
 .contenidos h1 {
-    margin-left: 50px;
+    margin-left: 80px;
     font-size: 55px;
     font-family: 'Francois One', sans-serif;
     color: white;
