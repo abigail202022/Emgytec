@@ -132,6 +132,15 @@
 }
 
 /*PORTADA AUTO*/
+.portada img{
+    height: 500px;
+}
+
+.portada h1{
+    font-family: 'Francois One', sans-serif;
+    font-size: 60px;
+    color: white;
+}
 
 
 /*SLIDE*/
@@ -490,20 +499,12 @@ form.form_contact textarea {
     flex-wrap: wrap;
 }
 
-.wrap h1 {
-    font-size: 40px;
-    font-family: 'Francois One', sans-serif;
-    color: #1964A7;
-    padding-top: 120px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
 .menuV {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    padding-top: 60px;
 }
 
 .menuV button {
@@ -511,16 +512,15 @@ form.form_contact textarea {
     width: 100%;
     padding: 12px 0;
     margin-bottom: 15px;
-    background: white;
+    background: #4f8ace;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'News Cycle', sans-serif;
     border-style: solid;
-    border-width: 1.5px;
-    color: #606469;
+    border-width: 0px;
 }
 
 .menuV button:hover {
@@ -544,13 +544,45 @@ section.tab a {
 }
 
 /*Automatiación*/
+section#tab_control img{
+    height: 350px;
+    padding-top: 60px;
+}
+
+section#tab_auto_industrial img,
+section#tab_scada img,
+section#tab_instrumentacion img,
+section#tab_industria img{
+    height: 430px;
+    padding-top: 60px;
+}
+
+section#tab_auto_industrial .btn,
+section#tab_instrumentacion .btn,
+section#tab_control .btn,
+section#tab_industria .btn,
+section#tab_scada .btn{
+    background: #4f8ace;
+    border: #4f8ace;
+}
+
+section#tab_auto_industrial .btn:hover,
+section#tab_instrumentacion .btn:hover,
+section#tab_control .btn:hover,
+section#tab_industria .btn:hover,
+section#tab_scada .btn:hover {
+    background: #1964A7;
+    color: #ffffff;
+}
+
 section#tab_auto_industrial h2,
 section#tab_control h2,
 section#tab_instrumentacion h2,
 section#tab_industria h2,
 section#tab_scada h2 {
     font-family: 'News Cycle', sans-serif;
-    font-size: 23px;
+    font-size: 25px;
+    padding-top: 60px;
 }
 
 section#tab_auto_industrial p,
@@ -564,6 +596,17 @@ section#tab_scada p {
     color: #606469;
 }
 
+section#tab_auto_industrial li,
+section#tab_control li,
+section#tab_instrumentacion li,
+section#tab_industria li,
+section#tab_scada li {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    color: #606469;
+}
+
 /*Energía*/
 section#tab_panel h2,
 section#tab_eolica h2,
@@ -571,6 +614,7 @@ section#tab_respaldo h2,
 section#tab_electrogeno h2 {
     font-family: 'News Cycle', sans-serif;
     font-size: 23px;
+    padding-top: 60px;
 }
 
 section#tab_panel p,
