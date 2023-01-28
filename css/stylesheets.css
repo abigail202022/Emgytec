@@ -131,6 +131,9 @@
     font-family: 'Francois One', sans-serif;
 }
 
+/*PORTADA AUTO*/
+
+
 /*SLIDE*/
 #portada {
     background-image: url(EMGYTEC-portada\ \(2\).png);
@@ -488,11 +491,11 @@ form.form_contact textarea {
 }
 
 .wrap h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Francois One', sans-serif;
     color: #1964A7;
-    padding-top: 40px;
-    padding-bottom: 42px;
+    padding-top: 120px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -606,6 +609,24 @@ section#tab_computo li {
     text-align: justify
 }
 
+/*Proyectos*/
+section#tab_radio h2,
+section#tab_robotica h2,
+section#tab_red h2,
+section#tab_pw h2 {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 23px;
+}
+
+section#tab_radio p,
+section#tab_robotica p,
+section#tab_red p,
+section#tab_pw p {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    color: #606469;
+}
 
 /*Footer*/
 .pie {
