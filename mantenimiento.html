@@ -21,13 +21,96 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="wrap">
-          <h1>MANTENIMIENTO PREVENTIVO Y CORRECTIVO</h1>
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="./img/EMGYTEC-logo.png" alt="LOGO EMGYTEC"
+            class="img-logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-center">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                AUTOMATIZACIÓN</a>
+              <ul class="dropdown-menu">
+                <li><a ref-item="auto_industrial" class="dropdown-item" href="automatizacion.html">Automatización
+                    industrial</a></li>
+                <li><a ref-item="control" class="dropdown-item" href="automatizacion.html">Control</a></li>
+                <li><a ref-item="instrumentacion" class="dropdown-item" href="automatizacion.html">Instrumentación</a>
+                </li>
+                <li><a ref-item="industria" class="dropdown-item" href="automatizacion.html">Industria 4.0</a></li>
+                <li><a ref-item="scada" class="dropdown-item" href="automatizacion.html">Sistema SCADA</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ENERGÍA
+              </a>
+              <ul class="dropdown-menu">
+                <li><a ref-item="panel" class="dropdown-item" href="energia.html">Panel Solar</a></li>
+                <li><a ref-item="eolica" class="dropdown-item" href="energia.html">Eólica</a></li>
+                <li><a ref-item="respaldo" class="dropdown-item" href="energia.html">Respaldo de Energía</a></li>
+                <li><a ref-item="electrogeno" class="dropdown-item" href="energia.html">Grupos Electrógenos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                MANTENIMIENTO
+              </a>
+              <ul class="dropdown-menu">
+                <li><a ref-item="mecanicos" class="dropdown-item" href="mantenimiento.html">Equipos Mecánicos</a></li>
+                <li><a ref-item="electronicos" class="dropdown-item" href="mantenimiento.html">Equipos
+                    Electrónicos</a>
+                </li>
+                <li><a ref-item="laboratorio" class="dropdown-item" href="mantenimiento.html">Equipos de
+                    Laboratorio</a>
+                </li>
+                <li><a ref-item="computo" class="dropdown-item" href="mantenimiento.html">Equipos de Cómputo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PROYECTOS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a ref-item="radio" class="dropdown-item" href="proyecto.html">Radiocomunicación</a></li>
+                <li><a ref-item="robotica" class="dropdown-item" href="proyecto.html">Robótica</a></li>
+                <li><a ref-item="red" class="dropdown-item" href="proyecto.html">Redes</a></li>
+                <li><a ref-item="pw" class="dropdown-item" href="proyecto.html">Página Web</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="descarga" download="Brochure Emgytec" href="Brochure.pdf">BROCHURE</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  </section>
+
+  <section class="portada">
+    <div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/PortadaMantenimiento.png" class="d-block w-100" alt="PortadaEnergia">
+            <div class="carousel-caption ">
+              <h1>MANTENIMIENTO PREVENTIVO Y CORRECTIVO</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <div class="container">
+    <div class="row">
       <div class="col-12 col-md-3">
         <div class="wrap">
           <aside class="menuV">
@@ -41,11 +124,12 @@
       <div class="col-12 col-md-9">
         <section id="tab_mecanicos" class="tab">
           <article>
-            <h2>EQUIPOS MECÁNICOS</h2>
             <div class="row">
               <div class="col-12 col-md-8">
-                <p>Nuestra experiencia en Mantenimiento y Reparación nos permiten garantizar nuestros servicios.</p>
-                <ol>
+                <h2>EQUIPOS MECÁNICOS</h2>
+                <p>Nuestro servicio consiste en diagnosticar, planificar, ejecutar y prevenir averías, muy recomendable si su prioridad es atender las necesidades de sus operaciones comerciales con una respuesta rápida.</p>
+                <p> Así mismo, nuestros profesionales están para brindarle un soporte confiable con experiencia y conocimiento comprobado. Nuestra experiencia en Mantenimiento y Reparación nos permiten garantizar nuestros servicios en:</p>
+                 <ol>
                   <li>Bombas</li>
                   <li>Compresores</li>
                   <li>Transportadores e banda</li>
@@ -59,7 +143,7 @@
               </div>
               <div class="col-12 col-md-4">
                 <figure>
-                  <img src="" class="img-fluid" alt="Equipos Mecánicos">
+                  <img src="./img/EquiposMecanicos.jpg" class="img-fluid" alt="Equipos Mecánicos">
                 </figure>
               </div>
             <div>
@@ -68,10 +152,10 @@
     
         <section id="tab_electronicos" class="tab hide_tab">
           <article>
-            <h2>EQUIPOS ELECTRÓNICOS</h2>
             <div class="row">
               <div class="col-12 col-md-8">
-                <p>Nuestra experiencia en Mantenimiento y Reparación nos permiten garantizar nuestros servicios.</p>
+                <h2>EQUIPOS ELECTRÓNICOS</h2>
+                <p>EMGYTEC conoce la necesidad de muchas empresas e instituciones por mantener en óptimo servicio sus equipos electrónicos, sin que esto signifique una gran inversión para hacerlo realidad, es por esta razón que ponemos a disposición de este sector los contratos de mantenimiento electrónico. EMGYTEC ofrece contratos de mantenimiento para:</p>
                 <ol>
                   <li>Osciloscopio</li>
                   <li>Multimetro</li>
@@ -90,7 +174,7 @@
               </div>
               <div class="col-12 col-md-4">
                 <figure>
-                  <img src="" class="img-fluid"  alt="Equipos Electrónicos">
+                  <img src="./img/EquiposElectronicos.jpg" class="img-fluid"  alt="Equipos Electrónicos">
                 </figure>
               </div>
             <div>
@@ -99,10 +183,11 @@
     
         <section id="tab_laboratorio" class="tab hide_tab">
           <article>
-            <h2>EQUIPOS DE LABORATORIO</h2>
             <div class="row">
               <div class="col-12 col-md-8">
-                <p>Nuestra experiencia en Mantenimiento y Reparación nos permiten garantizar nuestros servicios.</p>
+                <h2>EQUIPOS DE LABORATORIO</h2>
+                <p>EMGYTEC presta servicios de mantenimiento de sus equipos de laboratorio y de investigación con un equipo técnico cualificado con experiencia en la reparación y el mantenimiento de equipos de laboratorio. Ofrecemos a nuestros Clientes el diagnóstico de la avería de su equipo con el fin de obtener reparaciones duraderas y de calidad con repuestos originales efectuadas en casa del cliente. Nuestra experiencia en Mantenimiento y Reparación nos permiten garantizar nuestros servicios.
+                  </p>
                 <ol>
                   <li>Presión y Fuerza</li>
                   <li>Longitud y Ángulo</li>
@@ -118,7 +203,7 @@
               </div>
               <div class="col-12 col-md-4">
                 <figure>
-                  <img src="" class="img-fluid"  alt="Equipos de Laboratorio">
+                  <img src="./img/EquipoLaboratorio.jpeg" class="img-fluid"  alt="Equipos de Laboratorio">
                 </figure>
               </div>
             <div>
@@ -127,10 +212,11 @@
     
         <section id="tab_computo" class="tab hide_tab">
           <article>
-            <h2>EQUIPOS DE CÓMPUTO</h2>
             <div class="row">
               <div class="col-12 col-md-8">
-                <p>Nuestra experiencia en Mantenimiento y Reparación nos permiten garantizar nuestros servicios.</p>
+                <h2>EQUIPOS DE CÓMPUTO</h2>
+                <p> En EMGYTEC, nuestro  encargado en Soporte y Mantenimiento de Computadoras se forma para poder instalar, poner en funcionamiento, operar, interconectar y dar mantenimiento a equipos de cómputo; aplicando normas y especificaciones técnicas. Asimismo, efectúa el montaje y desmontaje de equipos de computo, configura y da mantenimiento a las partes físicas y lógicas de equipos de cómputo, servidores y perisféricos.
+                    Entre los servicios de mantenimiento que realiza opción tecnológica, están los siguientes:</p>
                 <ol>
                   <li>Catalizadores</li>
                   <li>Conmutadores</li>
@@ -144,7 +230,7 @@
               </div>
               <div class="col-12 col-md-4">
                 <figure>
-                  <img src="" class="img-fluid"  alt="Equipos de Computo">
+                  <img src="./img/EquipoComputo.jpg" class="img-fluid"  alt="Equipos de Computo">
                 </figure>
               </div>
             <div>
@@ -207,28 +293,45 @@
 integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
 crossorigin="anonymous"></script>
 
+<script src="./js/setLocalStorage.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 
-<script>
-  document.querySelectorAll('.navbar .nav-item').forEach(function (everyitem) {
-    everyitem.addEventListener('mouseover', function (e) {
-      let el_link = this.querySelector('a[data-bs-toggle]');
-      if (el_link != null) {
-        let nextEl = el_link.nextElementSibling;
-        el_link.classList.add('show');
-        nextEl.classList.add('show');
-      }
-    });
-    everyitem.addEventListener('mouseleave', function (e) {
-      let el_link = this.querySelector('a[data-bs-toggle]');
-      if (el_link != null) {
-        let nextEl = el_link.nextElementSibling;
-        el_link.classList.remove('show');
-        nextEl.classList.remove('show');
+  <script>
+    const nav = document.querySelector('nav');
+    const botton = document.querySelector('.descarga');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 50) {
+        nav.classList.add('active_nav');
+        console.log(botton);
+        botton.classList.add('active_descarga');
+      } else {
+        nav.classList.remove('active_nav');
+        botton.classList.remove('active_descarga');
       }
     })
-  });
-</script>
+  </script>
 
+  <script>
+    document.querySelectorAll('.navbar .nav-item').forEach(function (everyitem) {
+      everyitem.addEventListener('mouseover', function (e) {
+        let el_link = this.querySelector('a[data-bs-toggle]');
+        if (el_link != null) {
+          let nextEl = el_link.nextElementSibling;
+          el_link.classList.add('show');
+          nextEl.classList.add('show');
+        }
+      });
+      everyitem.addEventListener('mouseleave', function (e) {
+        let el_link = this.querySelector('a[data-bs-toggle]');
+        if (el_link != null) {
+          let nextEl = el_link.nextElementSibling;
+          el_link.classList.remove('show');
+          nextEl.classList.remove('show');
+        }
+      })
+    });
+  </script>
 
 <script src="./js/mantenimiento.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
