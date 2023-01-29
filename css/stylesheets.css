@@ -145,13 +145,16 @@
 
 /*SLIDE*/
 #portada {
-    background-image: url(EMGYTEC-portada\ \(2\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
+}
+
+.container-cover{
     width: 100%;
     height: 100vh;
     position: relative;
+    background-image:url(EMGYTEC-portada\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .swiper {
@@ -171,8 +174,9 @@
     display: block;
     width: 100%;
     height: 371px;
-
+    
 }
+
 
 /*NOSOTROS*/
 .nosotros {
@@ -624,7 +628,55 @@ section#tab_electrogeno p {
     font-family: 'News Cycle', sans-serif;
     font-size: 17px;
     text-align: justify;
+    color: #606469;
 }
+
+section#tab_panel li,
+section#tab_eolica li,
+section#tab_respaldo li,
+section#tab_electrogeno li {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    color: #606469;
+}
+
+section#tab_panel img,
+section#tab_eolica img{
+    height: 340px;
+    width: 90%;
+    padding-top: 60px;
+}
+
+section#tab_respaldo img{
+    height: 500px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+section#tab_eolica img{
+    height: 570px;
+    width: 110%;
+    padding-top: 60px;
+}
+
+
+section#tab_panel .btn,
+section#tab_eolica .btn,
+section#tab_respaldo .btn,
+section#tab_electrogeno .btn{
+    background: #4f8ace;
+    border: #4f8ace;
+}
+
+section#tab_panel .btn:hover,
+section#tab_eolica .btn:hover,
+section#tab_respaldo .btn:hover,
+section#tab_electrogeno .btn:hover{
+    background: #1964A7;
+    color: #ffffff;
+}
+
 
 /*Mantenimiento*/
 section#tab_mecanicos h2,
