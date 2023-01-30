@@ -784,17 +784,16 @@ section#tab_pw li{
 }
 
 section#tab_radio img,
-section#tab_red img,
+section#tab_robotica img,
 section#tab_pw img{
     height: 500px;
     width: 100%;
     padding-top: 60px;
 }
 
-section#tab_robotica img,
-section#tab_red img,
-section#tab_pw img{
-    height: 485px;
+
+section#tab_red img{
+    height: 440px;
     padding-top: 60px;
 }
 
