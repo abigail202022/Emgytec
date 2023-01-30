@@ -783,6 +783,21 @@ section#tab_pw li{
     color: #606469;
 }
 
+section#tab_radio img,
+section#tab_red img,
+section#tab_pw img{
+    height: 500px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+section#tab_robotica img,
+section#tab_red img,
+section#tab_pw img{
+    height: 485px;
+    padding-top: 60px;
+}
+
 section#tab_radio .btn,
 section#tab_robotica .btn,
 section#tab_red .btn,
