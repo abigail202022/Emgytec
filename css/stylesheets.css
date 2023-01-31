@@ -131,7 +131,15 @@
     font-family: 'Francois One', sans-serif;
 }
 
-/*PORTADA AUTO*/
+.navbar-light .navbar-toggler i{
+    color: white;
+}
+
+.navbar-light .navbar-toggler{
+    border: 1px solid white;
+}
+
+/*PORTADA GENERAL*/
 .portada img{
     height: 500px;
 }
@@ -140,6 +148,11 @@
     font-family: 'Francois One', sans-serif;
     font-size: 60px;
     color: white;
+}
+
+/*PORTADA GENERAL*/
+.portadaC img{
+    height: 350px;
 }
 
 
@@ -567,7 +580,7 @@ section#tab_control .btn,
 section#tab_industria .btn,
 section#tab_scada .btn{
     background: #4f8ace;
-    border: #4f8ace;
+    border: #4f8ace;    
 }
 
 section#tab_auto_industrial .btn:hover,
@@ -671,6 +684,7 @@ section#tab_respaldo .btn,
 section#tab_electrogeno .btn{
     background: #4f8ace;
     border: #4f8ace;
+    margin-top: 30px; 
 }
 
 section#tab_panel .btn:hover,
@@ -743,6 +757,7 @@ section#tab_laboratorio .btn,
 section#tab_computo .btn {
     background: #4f8ace;
     border: #4f8ace;
+    margin-top: 30px; 
 }
 
 section#tab_mecanicos .btn:hover,
@@ -773,6 +788,28 @@ section#tab_pw p {
     color: #606469;
 }
 
+section#tab_pw .ventajas{
+    padding-top: 20px;
+}
+
+section#tab_pw .ventajas i{
+    color: #070808;
+    font-size: 30px;
+}
+
+section#tab_pw .descripcion .titulo{
+    padding-top: 10px;
+    font-family:'Francois One', sans-serif;
+    font-size: 17px;
+}
+
+section#tab_pw .descripcion p{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: #606469;
+}
+
 section#tab_radio li,
 section#tab_robotica li,
 section#tab_red li,
@@ -784,8 +821,7 @@ section#tab_pw li{
 }
 
 section#tab_radio img,
-section#tab_robotica img,
-section#tab_pw img{
+section#tab_robotica img{
     height: 500px;
     width: 100%;
     padding-top: 60px;
@@ -794,7 +830,12 @@ section#tab_pw img{
 
 section#tab_red img{
     height: 440px;
-    padding-top: 60px;
+    padding-top: 60px;  
+}
+
+section#tab_pw img{
+    height: 410px;
+    padding-top: 60px;  
 }
 
 section#tab_radio .btn,
@@ -803,6 +844,7 @@ section#tab_red .btn,
 section#tab_pw .btn{
     background: #4f8ace;
     border: #4f8ace;
+    margin-top: 30px; 
 }
 
 section#tab_radio .btn:hover,
