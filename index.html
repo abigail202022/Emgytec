@@ -11,6 +11,7 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/stylesheets.css">
+  <script src="js/scrollreveal.js"></script>
 </head>
 
 <body class="hidden">
@@ -96,22 +97,36 @@
     </nav>
   </section>
 
-  <section class="carrusel">
-    <div class="container-cover">
-      <div class="row" id="portada">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"> <img src="./img/EMGYTEC-carrusel1.jpg"></div>
-            <div class="swiper-slide"> <img src="./img/EMGYTEC-carrusel2.jpg"></div>
-            <div class="swiper-slide"> <img src="./img/EMGYTEC-carrusel3.jpg"></div>
-            <div class="swiper-slide"> <img src="./img/EMGYTEC-carrusel4.jpeg"></div>
-            <div class="swiper-slide"> <img src="./img/EMGYTEC-carrusel5.jpg"></div>
-            <div class="swiper-slide"> <img src="./img/EMGYTEC-carrusel6.webp"></div>
-            <div class="swiper-slide"> <img src="./img/EMGYTEC-carrusel7.gif"></div>
-            <div class="swiper-slide"> <img src="./img/EMGYTEC-carrusel8.jpeg"></div>
+  <section>
+    <div class="slide" id="slide">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/EMGYTEC-carrusel1.jpg" />
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-slide">
+            <img src="./img/EMGYTEC-carrusel2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/EMGYTEC-carrusel3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/EMGYTEC-carrusel4.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/EMGYTEC-carrusel5.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/EMGYTEC-carrusel6.webp" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/EMGYTEC-carrusel7.gif" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/EMGYTEC-carrusel8.jpeg" />
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
@@ -345,9 +360,9 @@
       },
       loop: true,
       autoplay: {
-        delay: 1500,
+        delay: 1700,
         disableOnInteraction: false,
-      }
+      },
     });
   </script>
 
@@ -388,5 +403,7 @@
   </script>
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
   <script src="./js/codigo.js"></script>
+  <script src="./js/index.js"></script>
 </body>
+
 </html>

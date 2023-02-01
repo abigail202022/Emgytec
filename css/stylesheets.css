@@ -131,37 +131,32 @@
     font-family: 'Francois One', sans-serif;
 }
 
-.navbar-light .navbar-toggler i{
+.navbar-light .navbar-toggler i {
     color: white;
 }
 
-.navbar-light .navbar-toggler{
+.navbar-light .navbar-toggler {
     border: 1px solid white;
 }
 
 /*PORTADA GENERAL*/
-.portada img{
+.portada img {
     height: 500px;
 }
 
-.portada h1{
+.portada h1 {
     font-family: 'Francois One', sans-serif;
     font-size: 60px;
     color: white;
 }
 
 /*PORTADA GENERAL*/
-.portadaC img{
+.portadaC img {
     height: 350px;
 }
 
-
-/*SLIDE*/
-#portada {
-    height: 100vh;
-}
-
-.container-cover{
+/*NEW SLIDE */
+#slide{
     width: 100%;
     height: 100vh;
     position: relative;
@@ -172,13 +167,14 @@
 
 .swiper {
     width: 100%;
-    padding-top: 170px;
+    padding-top: 160px;
+    min-height: 100vh;
 }
 
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 280px;
+    width: 300px;
     height: 300px;
     -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, rgb(255, 255, 255));
 }
@@ -187,9 +183,7 @@
     display: block;
     width: 100%;
     height: 371px;
-    
 }
-
 
 /*NOSOTROS*/
 .nosotros {
@@ -294,6 +288,7 @@
     padding-right: 10px;
 }
 
+/*CLIENTES Y MARCAS*/
 #hero {
     position: relative;
 }
@@ -561,7 +556,7 @@ section.tab a {
 }
 
 /*Automatiación*/
-section#tab_control img{
+section#tab_control img {
     height: 350px;
     padding-top: 60px;
 }
@@ -569,7 +564,7 @@ section#tab_control img{
 section#tab_auto_industrial img,
 section#tab_scada img,
 section#tab_instrumentacion img,
-section#tab_industria img{
+section#tab_industria img {
     height: 430px;
     padding-top: 60px;
 }
@@ -578,9 +573,9 @@ section#tab_auto_industrial .btn,
 section#tab_instrumentacion .btn,
 section#tab_control .btn,
 section#tab_industria .btn,
-section#tab_scada .btn{
+section#tab_scada .btn {
     background: #4f8ace;
-    border: #4f8ace;    
+    border: #4f8ace;
 }
 
 section#tab_auto_industrial .btn:hover,
@@ -655,25 +650,25 @@ section#tab_electrogeno li {
 }
 
 section#tab_panel img,
-section#tab_eolica img{
+section#tab_eolica img {
     height: 340px;
     width: 90%;
     padding-top: 60px;
 }
 
-section#tab_respaldo img{
+section#tab_respaldo img {
     height: 480px;
     width: 100%;
     padding-top: 60px;
 }
 
-section#tab_eolica img{
+section#tab_eolica img {
     height: 570px;
     width: 110%;
     padding-top: 60px;
 }
 
-section#tab_electrogeno img{
+section#tab_electrogeno img {
     height: 500px;
     padding-top: 60px;
 }
@@ -681,16 +676,16 @@ section#tab_electrogeno img{
 section#tab_panel .btn,
 section#tab_eolica .btn,
 section#tab_respaldo .btn,
-section#tab_electrogeno .btn{
+section#tab_electrogeno .btn {
     background: #4f8ace;
     border: #4f8ace;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 section#tab_panel .btn:hover,
 section#tab_eolica .btn:hover,
 section#tab_respaldo .btn:hover,
-section#tab_electrogeno .btn:hover{
+section#tab_electrogeno .btn:hover {
     background: #1964A7;
     color: #ffffff;
 }
@@ -727,25 +722,25 @@ section#tab_computo li {
 
 section#tab_mecanicos img,
 section#tab_electronicos img,
-section#tab_computo img{
+section#tab_computo img {
     height: 485px;
     width: 100%;
     padding-top: 60px;
 }
 
-section#tab_laboratorio img{
+section#tab_laboratorio img {
     height: 510px;
     width: 100%;
     padding-top: 60px;
 }
 
-section#tab_electronicos img{
+section#tab_electronicos img {
     height: 540px;
     width: 100%;
     padding-top: 60px;
 }
 
-section#tab_computo img{
+section#tab_computo img {
     height: 470px;
     width: 100%;
     padding-top: 60px;
@@ -757,7 +752,7 @@ section#tab_laboratorio .btn,
 section#tab_computo .btn {
     background: #4f8ace;
     border: #4f8ace;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 section#tab_mecanicos .btn:hover,
@@ -788,22 +783,22 @@ section#tab_pw p {
     color: #606469;
 }
 
-section#tab_pw .ventajas{
+section#tab_pw .ventajas {
     padding-top: 20px;
 }
 
-section#tab_pw .ventajas i{
+section#tab_pw .ventajas i {
     color: #070808;
     font-size: 30px;
 }
 
-section#tab_pw .descripcion .titulo{
+section#tab_pw .descripcion .titulo {
     padding-top: 10px;
-    font-family:'Francois One', sans-serif;
+    font-family: 'Francois One', sans-serif;
     font-size: 17px;
 }
 
-section#tab_pw .descripcion p{
+section#tab_pw .descripcion p {
     font-family: 'News Cycle', sans-serif;
     font-size: 17px;
     text-align: center;
@@ -813,7 +808,7 @@ section#tab_pw .descripcion p{
 section#tab_radio li,
 section#tab_robotica li,
 section#tab_red li,
-section#tab_pw li{
+section#tab_pw li {
     font-family: 'News Cycle', sans-serif;
     font-size: 17px;
     text-align: justify;
@@ -821,36 +816,36 @@ section#tab_pw li{
 }
 
 section#tab_radio img,
-section#tab_robotica img{
+section#tab_robotica img {
     height: 500px;
     width: 100%;
     padding-top: 60px;
 }
 
 
-section#tab_red img{
+section#tab_red img {
     height: 440px;
-    padding-top: 60px;  
+    padding-top: 60px;
 }
 
-section#tab_pw img{
+section#tab_pw img {
     height: 410px;
-    padding-top: 60px;  
+    padding-top: 60px;
 }
 
 section#tab_radio .btn,
 section#tab_robotica .btn,
 section#tab_red .btn,
-section#tab_pw .btn{
+section#tab_pw .btn {
     background: #4f8ace;
     border: #4f8ace;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 section#tab_radio .btn:hover,
 section#tab_robotica .btn:hover,
 section#tab_red .btn:hover,
-section#tab_pw .btn:hover{
+section#tab_pw .btn:hover {
     background: #1964A7;
     color: #ffffff;
 }
